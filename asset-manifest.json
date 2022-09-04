@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/voynich-tree/static/css/main.93216106.css",
-    "main.js": "/voynich-tree/static/js/main.fafd8c03.js",
-    "static/js/787.df78d2a3.chunk.js": "/voynich-tree/static/js/787.df78d2a3.chunk.js",
-    "index.html": "/voynich-tree/index.html",
-    "main.93216106.css.map": "/voynich-tree/static/css/main.93216106.css.map",
-    "main.fafd8c03.js.map": "/voynich-tree/static/js/main.fafd8c03.js.map",
-    "787.df78d2a3.chunk.js.map": "/voynich-tree/static/js/787.df78d2a3.chunk.js.map"
+    "main.css": "./static/css/main.93216106.css",
+    "main.js": "./static/js/main.5eded3a3.js",
+    "static/js/787.df78d2a3.chunk.js": "./static/js/787.df78d2a3.chunk.js",
+    "index.html": "./index.html",
+    "main.93216106.css.map": "./static/css/main.93216106.css.map",
+    "main.5eded3a3.js.map": "./static/js/main.5eded3a3.js.map",
+    "787.df78d2a3.chunk.js.map": "./static/js/787.df78d2a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93216106.css",
-    "static/js/main.fafd8c03.js"
+    "static/js/main.5eded3a3.js"
   ]
 }
