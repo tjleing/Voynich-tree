@@ -1,16 +1,23 @@
 {
   "name": "voynich-tree",
   "version": "0.1.0",
-  "homepage": "https://tleing.github.io/voynich-tree",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/cytoscape": "^3.19.7",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.7.14",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
     "cytoscape": "^3.22.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "4.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
