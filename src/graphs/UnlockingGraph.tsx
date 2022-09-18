@@ -8,10 +8,21 @@ type UnlockingGraphProps = {
 };
 
 function unlockGraph(node: NodeSingular) {
-  node.neighborhood().removeClass("hidden");
+  var toUnlock = node.neighborhood(".hidden");
+  toUnlock.removeClass("hidden");
+  toUnlock.style({opacity: 0});
+  toUnlock.animate({
+    style: {opacity: 1},
+    duration: 600,
+    easing: 'ease-in-sine',
+  });
 }
 
 class UnlockingGraph extends Component<UnlockingGraphProps> {
+  tick() {
+    // check all node unlock
+  }
+
   render() {
     return (
         <Graph
